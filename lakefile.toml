@@ -1,0 +1,10 @@
+name = "grundlean-der-analysis"
+version = "0.1.0"
+defaultTargets = ["grundlean-der-analysis"]
+
+[[lean_lib]]
+name = "GrundleanDerAnalysis"
+
+[[lean_exe]]
+name = "grundlean-der-analysis"
+root = "Main"
